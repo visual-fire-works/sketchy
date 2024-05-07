@@ -1,0 +1,17 @@
+{
+    "files": [
+      "src/electron.cts",
+      "src/preload.cts",
+    ],
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2022",
+      "outDir": "./dist",
+      "allowJs": true,
+      "checkJs": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "strict": true,
+    }
+  }
